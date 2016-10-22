@@ -1,0 +1,10 @@
+= react_component 'Navbar', rootUrl: root_path
+
+-#
+  %header.navigation{ :role => :banner }
+    .navigation-wrapper
+      = js_link class: 'logo' do
+        %img
+      = js_link class: 'navigation-menu_button', id: 'js-mobile-menu' do
+        = fa_icon :bars
+      %ul.navigation-menu
