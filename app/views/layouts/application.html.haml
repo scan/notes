@@ -6,6 +6,4 @@
     = csrf_meta_tags
     = stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Ropa+Sans', media: 'all'
     = javascript_include_tag 'application'
-  %body
-    = render 'shared/navigation'
-    .outer-container= yield
+  %body= yield
