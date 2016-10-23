@@ -150,6 +150,8 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
+    npm-rails (0.2.1)
+      rails (>= 3.2)
     orm_adapter (0.5.0)
     rack (2.0.1)
     rack-test (0.6.3)
@@ -278,6 +280,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   mongoid (~> 6.0.0)
   neat
+  npm-rails
   rails (~> 5.0.0, >= 5.0.0.1)
   react-rails
   redis (~> 3.0)
@@ -293,4 +296,4 @@ DEPENDENCIES
   zepto-rails!
 
 BUNDLED WITH
-   1.13.2
+   1.13.6

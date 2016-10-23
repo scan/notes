@@ -18,3 +18,5 @@
 
 /config/secrets.yml
 /config/mongoid.yml
+# Added by npm-rails
+/node_modules

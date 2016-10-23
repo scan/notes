@@ -1,0 +1,9 @@
+# Browserify is required.
+# You can install it globally and delete from here.
+npm 'browserify', require: false, development: true
+
+# Add some npm packages
+npm 'react'
+npm 'react-router'
+npm 'redux'
+npm 'react-redux'
