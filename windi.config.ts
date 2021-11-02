@@ -1,7 +1,13 @@
-import { defineConfig } from 'windicss/helpers'
+import { defineConfig } from 'windicss/helpers';
 
 export default defineConfig({
-    dark: 'class',
+    dark: 'media',
+    theme: {
+        fontFamily: {
+            sans: '"Roboto", sans-serif',
+            mono: '"Roboto Mono", monospace',
+        },
+    },
     plugins: [
         require('windicss/plugin/forms'),
         require('windicss/plugin/aspect-ratio'),
@@ -12,4 +18,4 @@ export default defineConfig({
         // add more as needed
         // see: https://windicss.org/ for more info
     ],
-})
+});

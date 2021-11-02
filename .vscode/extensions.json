@@ -3,6 +3,7 @@
         "svelte.svelte-vscode",
         "orta.vscode-jest",
         "editorconfig.editorconfig",
-        "syler.sass-indented"
+        "syler.sass-indented",
+        "voorjaar.windicss-intellisense"
     ]
 }
