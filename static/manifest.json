@@ -1,0 +1,6 @@
+{
+    "short-name": "notes",
+    "name": "Notes",
+    "start_url": "/",
+    "display": "standalone"
+}

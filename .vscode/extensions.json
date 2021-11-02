@@ -2,6 +2,7 @@
     "recommendations": [
         "svelte.svelte-vscode",
         "orta.vscode-jest",
-        "editorconfig.editorconfig"
+        "editorconfig.editorconfig",
+        "syler.sass-indented"
     ]
 }
